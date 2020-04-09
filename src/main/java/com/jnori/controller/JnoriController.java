@@ -8,6 +8,10 @@ public class JnoriController {
 
 	@GetMapping("/")
 	public String getMessage() {
-		return "I am making critical change be careful";
+		return "Welcome to GitAWSCodeDeploy";
+	}
+	@GetMapping("/aws")
+	public String getAWS() {
+		return "Welcome to AWS";
 	}
 }
