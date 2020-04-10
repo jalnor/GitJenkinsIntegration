@@ -15,4 +15,8 @@ public class JnoriController {
 	public String getAWS() {
 		return "Welcome to AWS";
 	}
+	@GetMapping("/payNow")
+	public String payNow() {
+		return "Pay me now!";
+	}
 }
