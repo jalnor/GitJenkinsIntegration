@@ -79,14 +79,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
-				
-				<!-- <ciManagement>
-					<system>Jenkins</system>
-					<url>
-						https://builds.apache.org/job/maven-box/job/maven-war-plugin/
-					</url>
-				</ciManagement> -->
-					<!-- <executions>
+					<executions>
 						<execution>
 							<id>default-war</id>
 							<phase>none</phase>
@@ -99,10 +92,10 @@
 							</configuration>
 							<phase>prepare-package</phase>
 							<goals>
-								<goal>exploded</goal>
+								<goal>war</goal>
 							</goals>
 						</execution>
-					</executions> -->
+					</executions>
 			</plugin>
 		</plugins>
 	</build>
