@@ -11,7 +11,7 @@ public class JnoriController {
 	public String getMessage() {
 		return "Welcome to GitAWSCodeDeploy";
 	}
-	@GetMapping("/aws")
+	@GetMapping("/a")
 	public String getAWS() {
 		return "Welcome to AWS";
 	}
