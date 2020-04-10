@@ -9,7 +9,7 @@ public class JnoriController {
 
 	@GetMapping("/")
 	public String getMessage() {
-		return "Welcome to GitAWSCodeDeploy";
+		return "Welcome to GitAWSCodeDeploy with Jenkins and Maven";
 	}
 	@GetMapping("/awsStore")
 	public String getAWS() {
