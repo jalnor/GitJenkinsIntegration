@@ -59,7 +59,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
+			<!-- <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<executions>
@@ -73,12 +73,19 @@
 				        </goals>
 				    </execution>
 		       	</executions>
-			</plugin>
+			</plugin> -->
 			
 			
-			<!-- <plugin>
+			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
+				
+				<!-- <ciManagement>
+					<system>Jenkins</system>
+					<url>
+						https://builds.apache.org/job/maven-box/job/maven-war-plugin/
+					</url>
+				</ciManagement> -->
 					<executions>
 						<execution>
 							<id>default-war</id>
@@ -96,7 +103,7 @@
 							</goals>
 						</execution>
 					</executions>
-			</plugin> -->
+			</plugin>
 		</plugins>
 	</build>
 </project>
