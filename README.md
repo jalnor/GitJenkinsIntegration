@@ -1,2 +1,2 @@
 # GitJenkinsIntegration
-This is a SPring Boot app with git and jenkins integration
+This is a Spring Boot app with git and jenkins integration
